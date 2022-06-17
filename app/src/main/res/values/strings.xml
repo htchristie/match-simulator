@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Match Simulator</string>
+    <string name="simulate">Simulate</string>
+    <string name="cd_home_team_flag">Home team flag</string>
+    <string name="cd_guest_team_flag">Guest team flag</string>
+    <string name="txt_versus" translatable="false">X</string>
 </resources>

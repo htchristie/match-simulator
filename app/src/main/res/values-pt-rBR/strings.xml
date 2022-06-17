@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Simulador de Partidas</string>
+    <string name="simulate">Simular</string>
+    <string name="cd_home_team_flag">Bandeira do time mandante</string>
+    <string name="cd_guest_team_flag">Bandeira do time visitante</string>
 </resources>
