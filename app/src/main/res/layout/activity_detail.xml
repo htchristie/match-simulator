@@ -5,17 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".DetailsActivity">
+    tools:context=".ui.DetailsActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/app_bar_height"
+        android:layout_height="wrap_content"
         android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
+            style="?attr/collapsingToolbarLayoutLargeStyle"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fitsSystemWindows="true"
+            android:layout_height="?attr/collapsingToolbarLayoutLargeSize"
             app:collapsedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Collapsed"
             app:expandedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Expanded">
 
@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="@android:color/transparent"
-                android:elevation="0dp" />
+                android:elevation="0dp"/>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
@@ -118,7 +118,7 @@
                 app:layout_constraintTop_toTopOf="@+id/ivHomeTeam" />
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/ivAwayTeam"
+                android:id="@+id/ivGuestTeam"
                 android:layout_width="@dimen/flag_img_size"
                 android:layout_height="@dimen/flag_img_size"
                 android:layout_marginTop="@dimen/margin_default"
@@ -128,36 +128,36 @@
                 tools:srcCompat="@tools:sample/avatars" />
 
             <androidx.appcompat.widget.AppCompatRatingBar
-                android:id="@+id/rbAwayTeamStars"
+                android:id="@+id/rbGuestTeamStars"
                 style="@style/Widget.AppCompat.RatingBar.Small"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_default"
-                app:layout_constraintEnd_toEndOf="@+id/ivAwayTeam"
-                app:layout_constraintStart_toStartOf="@+id/ivAwayTeam"
-                app:layout_constraintTop_toBottomOf="@+id/ivAwayTeam" />
+                app:layout_constraintEnd_toEndOf="@+id/ivGuestTeam"
+                app:layout_constraintStart_toStartOf="@+id/ivGuestTeam"
+                app:layout_constraintTop_toBottomOf="@+id/ivGuestTeam" />
 
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/tvAwayTeamName"
+                android:id="@+id/tvGuestTeamName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_default"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                app:layout_constraintEnd_toEndOf="@+id/ivAwayTeam"
-                app:layout_constraintStart_toStartOf="@+id/ivAwayTeam"
-                app:layout_constraintTop_toBottomOf="@+id/rbAwayTeamStars"
-                tools:text="Away Team" />
+                app:layout_constraintEnd_toEndOf="@+id/ivGuestTeam"
+                app:layout_constraintStart_toStartOf="@+id/ivGuestTeam"
+                app:layout_constraintTop_toBottomOf="@+id/rbGuestTeamStars"
+                tools:text="Guest Team" />
 
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/tvAwayTeamScore"
+                android:id="@+id/tvGuestTeamScore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                app:layout_constraintBottom_toBottomOf="@+id/ivAwayTeam"
-                app:layout_constraintEnd_toStartOf="@+id/ivAwayTeam"
+                app:layout_constraintBottom_toBottomOf="@+id/ivGuestTeam"
+                app:layout_constraintEnd_toStartOf="@+id/ivGuestTeam"
                 app:layout_constraintStart_toEndOf="@+id/tvVersus"
-                app:layout_constraintTop_toTopOf="@+id/ivAwayTeam"
+                app:layout_constraintTop_toTopOf="@+id/ivGuestTeam"
                 tools:text="99" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>

@@ -2,5 +2,5 @@
 <resources>
     <dimen name="margin_default">16dp</dimen>
     <dimen name="flag_img_size">110dp</dimen>
-    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
 </resources>

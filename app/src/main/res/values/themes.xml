@@ -1,6 +1,6 @@
 
 <resources>
-    <style name="Theme.Simulator" parent="Theme.Material3.DayNight">
+    <style name="Theme.Simulator" parent="Theme.Material3.Light">
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
@@ -29,7 +29,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
     </style>
     
-    <style name="Theme.Simulator.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Simulator.NoActionBar" parent="Theme.Material3.Light.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
     </style>
 

@@ -4,4 +4,5 @@
     <string name="simulate">Simular</string>
     <string name="cd_home_team_flag">Bandeira do time mandante</string>
     <string name="cd_guest_team_flag">Bandeira do time visitante</string>
+    <string name="error_api">Erro inesperado</string>
 </resources>
