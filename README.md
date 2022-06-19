@@ -7,6 +7,8 @@ App Android Nativo de simulação de partidas de futebol, proposto pela <a href=
 - Modelagem de domínio
 - View adapters
 - Parcelize
+- Firebase analytics
+- Firebase crashlytics
 
 ## Ferramentas utilizadas
 - [Biblioteca Retrofit](https://square.github.io/retrofit)
